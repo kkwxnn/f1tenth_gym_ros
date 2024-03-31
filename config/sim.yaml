@@ -42,7 +42,9 @@ bridge:
     scan_beams: 1080
 
     # map parameters
-    map_path: '/sim_ws/src/f1tenth_gym_ros/maps/levine'
+    # map_path: '/home/kwan/f1tenth/src/f1tenth_gym_ros/maps/levine' # lab 2, 3
+    map_path: '/home/kwan/f1tenth/src/f1tenth_gym_ros/maps/levine_blocked' # lab 4
+    # map_path: '/home/kwan/f1tenth/src/f1tenth_gym_ros/maps/levine_obs' # lab 4
     map_img_ext: '.png'
 
     # opponent parameters
